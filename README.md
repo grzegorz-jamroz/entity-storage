@@ -14,5 +14,5 @@
 ## Installation
 
 ```
-composer require grzegorz-jamroz/source-entity-storage
+composer require grzegorz-jamroz/entity-storage
 ```
