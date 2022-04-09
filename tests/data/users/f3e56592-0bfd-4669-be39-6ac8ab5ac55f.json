@@ -1,0 +1,12 @@
+{
+  "uuid": "f3e56592-0bfd-4669-be39-6ac8ab5ac55f",
+  "email": "tom@email.com",
+  "username": "tom",
+  "roles": [
+    "ROLE_USER"
+  ],
+  "name": "Tom",
+  "surname": "Baker",
+  "country": "United Kingdom"
+}
+

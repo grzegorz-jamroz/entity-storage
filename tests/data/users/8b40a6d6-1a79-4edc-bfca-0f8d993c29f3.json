@@ -1,0 +1,12 @@
+{
+  "uuid": "8b40a6d6-1a79-4edc-bfca-0f8d993c29f3",
+  "username": "max",
+  "email": "max@email.com",
+  "roles": [
+    "ROLE_USER",
+    "ROLE_ADMIN"
+  ],
+  "name": "Max",
+  "surname": "Smith",
+  "country": "United States"
+}

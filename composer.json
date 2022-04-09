@@ -1,0 +1,32 @@
+{
+    "name": "grzegorz-jamroz/entity-storage",
+    "description": "A PHP library for managing entities stored in files.",
+    "authors": [
+        {
+            "name": "Grzegorz Jamróz",
+            "email": "grzegorz.jamrooz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ifrost\\EntityStorage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8",
+        "ramsey/uuid": "^4.2",
+        "grzegorz-jamroz/filesystem": "^0.0.9",
+        "doctrine/collections": "^1.6"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.5",
+        "phpstan/phpstan": "^1.4",
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^6.0"
+    }
+}
