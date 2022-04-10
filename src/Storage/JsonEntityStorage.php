@@ -116,6 +116,18 @@ abstract class JsonEntityStorage implements EntityStorageInterface
         ))->execute();
     }
 
+    /**
+     * {@inheritdoc}
+     */
+    public function overwrite(EntityInterface $entity): void
+    {
+        (new Action\OverwriteAction(
+            $entity->getUuid(),
+            $entity->jsonSerialize(),
+            $this->fileFactory
+        ))->execute();
+    }
+
     public function delete(string $uuid): void
     {
         $this->fileFactory->getFileByUuid($uuid)->delete();

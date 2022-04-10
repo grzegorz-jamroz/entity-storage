@@ -55,5 +55,11 @@ interface EntityStorageInterface
      */
     public function modify(string $uuid, array $data): void;
 
+    /**
+     * Replaces the entire entity data with the given data.
+     * Creates a new entity if it does not exist.
+     */
+    public function overwrite(EntityInterface $entity): void;
+
     public function delete(string $uuid): void;
 }
