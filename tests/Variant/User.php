@@ -44,6 +44,14 @@ class User implements EntityInterface
     }
 
     /**
+     * @return array<int, string>
+     */
+    public static function getFields(): array
+    {
+        return array_keys(self::createFromArray([])->jsonSerialize());
+    }
+
+    /**
      * @return array<string, mixed>
      */
     public function jsonSerialize(): array

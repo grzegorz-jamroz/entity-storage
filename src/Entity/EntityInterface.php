@@ -14,4 +14,9 @@ interface EntityInterface extends ArrayConstructable, \JsonSerializable
      * @return array<string, mixed>
      */
     public function jsonSerialize(): array;
+
+    /**
+     * @return array<int, string>
+     */
+    public static function getFields(): array;
 }
